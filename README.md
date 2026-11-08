@@ -46,6 +46,16 @@ $py = "$env:USERPROFILE\.venvs\manga-tl\Scripts\python.exe"
 & $py -m pip install -r requirements.txt
 ```
 
+## License & credit
+
+Licensed under the [Apache License 2.0](LICENSE). You are free to use, modify and redistribute this
+software however you like, **as long as you credit the original author, Rod Morabito, and link to this
+repository** (https://github.com/Minesotan/manga-tl). Keep the [NOTICE](NOTICE) file with any copy or
+derivative work.
+
+Third-party components keep their own licenses: the speech-bubble model is GPL-3.0, Ultralytics is
+AGPL-3.0 and manga-ocr is Apache-2.0. They're downloaded at install/run time, not bundled here.
+
 ## Limitations
 
 - Only text **inside speech bubbles** is translated; sound effects and free-floating narration are left alone.
