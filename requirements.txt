@@ -1,0 +1,9 @@
+# Install CUDA PyTorch first (RTX GPUs):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+ultralytics
+manga-ocr
+opencv-python
+pillow
+requests
+huggingface_hub
+gradio

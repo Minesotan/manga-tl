@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# translated pages / uploads
+output/
+*_en/
+
+# personal font files (licenses usually forbid redistribution)
+fonts/
